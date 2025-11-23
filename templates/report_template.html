@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head><title>SentinelRecon Report</title></head>
+<body>
+<h1>Penetration Test Report - {{ target }}</h1>
+<p>Date: {{ date }}</p>
+
+<h2>Reconnaissance</h2>
+<pre>{{ recon }}</pre>
+
+<h2>Port Scan</h2>
+<pre>{{ ports }}</pre>
+
+<h2>Vulnerabilities</h2>
+<pre>{{ vulns }}</pre>
+
+<h2>Web Findings</h2>
+<pre>{{ web }}</pre>
+
+<h2>Brute Force Attempts</h2>
+<pre>{{ brute }}</pre>
+
+<h2>Privilege Escalation Checks</h2>
+<pre>{{ privilege }}</pre>
+</body>
+</html>

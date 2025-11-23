@@ -1,0 +1,4 @@
+Jinja2
+WeasyPrint
+aiohttp
+requests
